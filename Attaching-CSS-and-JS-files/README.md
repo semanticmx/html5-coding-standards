@@ -2,7 +2,7 @@ Attaching CSS and JS files
 =====================
 
 ## Table of contents
-- [Full Table of Content](README.md)
+- [General Recommendations](./HTML-Guide/html5-coding-standards/README.md)
 - [Script Placement](#```<script>```-Placement)
 
 ## ```<script>``` Placement
