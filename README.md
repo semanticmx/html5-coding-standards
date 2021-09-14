@@ -1,17 +1,14 @@
-HTML5 Coding Standards
+General Recommendations
 =====================
 
 HTML5 coding standards you must consider within your projects.
 
 ## Table of contents
 
-- [General recommendations](#General-recommendations)
+- [Git Branching Naming](#General-recommendations)
+- [Attaching CSS and JS files](Attaching-CSS-and-JS-files/README.md)
 
-
-## General recommendations
-
-
-### Git Branching Naming
+## Git Branching Naming
 
 Each branch has its default name, we must set the prefix name as the default name in order to recognize which type of branch are we working in. Example:
 
