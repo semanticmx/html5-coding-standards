@@ -31,4 +31,3 @@ When a web browser accesses a root folder, they'll only read camel cases or keba
 **Incorrect Naming** :-1:
 
 ``` cap1_mime_type  ``` 
-
