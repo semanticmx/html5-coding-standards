@@ -24,7 +24,7 @@ This translates to a slower page load. This is why it goes to the end, so the HT
 </footer>
 ```
 
-However, if we use the "defer" attribute, the page it'll load faster.
+However, if we use the "defer" attribute, the page will load faster.
 
 When we use the "defer" attribute, the webpage starts parsing HTML, and as soon it hits ```<script>``` tag, it'll start downloading, but unlike the script tag without the attribute, it will only execute when the HTML finishes parsing. The syntax would be like this:
 
