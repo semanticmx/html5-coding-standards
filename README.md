@@ -6,7 +6,7 @@ HTML5 coding standards you must consider within your projects.
 ## Table of contents
 
 - [Git Branching Naming](#General-recommendations)
-- [Attaching CSS and JS files](Attaching-CSS-and-JS-files/README.md)
+- [Attaching CSS and JS files](attaching-css-and-js-files/README.md)
 
 ## Git Branching Naming
 
