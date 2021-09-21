@@ -5,7 +5,7 @@ CSS Attributes
 
 In CSS the order of attributes should be in alphabetic order.
 
-**Correct Order**
+**Correct Order** :ok_hand:
 ```
 header{
     background-color: #2a437a;
@@ -17,7 +17,7 @@ header{
 }
 ```
 
-**incorrect Order**
+**Incorrect Order** :-1:
 ```
 header{
     margin: auto;

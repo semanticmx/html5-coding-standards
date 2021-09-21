@@ -105,11 +105,11 @@ A code should only have one space between block codes.
 
 The strings shouldn't leave blank spaces
 
-**Correct Form**
+**Correct Form** :ok_hand:
 
 ```<head></head>```
 
-**Incorrect Form**
+**Incorrect Form** :-1:
 
 ```<head> </head>```
 
