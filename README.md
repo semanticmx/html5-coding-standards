@@ -80,7 +80,10 @@ A code should only have one space between block codes.
 
     <nav>
       <ul>
-        <li><a href="index.html">This is a nav</a></li>
+        <li>
+          <a href="index.html">
+            This is a nav</a>
+          </li>
       </ul>
     </nav>
 ```
@@ -103,6 +106,29 @@ A code should only have one space between block codes.
     </nav>
 ```
 
+When we have two tags side by side, we should separate them with a line break.
+
+**Correct Form** :ok_hand:
+```
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">
+            This is a nav</a>
+          </li>
+      </ul>
+    </nav>
+```
+
+**Incorrect Form** :-1:
+```
+    <nav>
+      <ul>
+        <li><a href="index.html">This is a nav</a></li>
+      </ul>
+    </nav>
+```
+
 The strings shouldn't leave blank spaces
 
 **Correct Form** :ok_hand:
@@ -115,18 +141,38 @@ The strings shouldn't leave blank spaces
 
 ### Tag's Attribute order
 
-When a tag has more than one attribute, we should list them with spaces.
+When a tag has more than one attribute, and is within body tag, we should list them with spaces.
 
 **Correct Use** :ok_hand:
 ```
-<link 
-    rel="stylesheet" 
-    type="text/css" 
-    href="style.css">
+  <body>
+    <main>
+        <h2>
+          <a href="#"
+             rel="bookmark"
+             title="link to this post">
+              Link
+          </a>
+        </h2>
+    </main>
+  </body>
 ```
 
 **Incorrect Use** :-1:
 ```
-<link rel="stylesheet" type="text/css" href="style.css">
+  <body>
+    <main>
+        <h2>
+          <a href="#" rel="bookmark" title="link to this post"> Link </a>
+        </h2>
+    </main>
+  </body>
 ```
 
+When is within head tag, the attributes should go in a single string. Example:
+
+```
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+```
