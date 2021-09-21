@@ -34,7 +34,7 @@ When a web browser accesses a root folder, they'll only read camel cases or keba
 
 ``` cap1_mime_type  ``` 
 
-## Formating
+## Formatting
 
 Formatting is pretty arbitrary, but it’s much easier to follow if everyone uses the same style. Individuals may not agree with every aspect of the formatting rules, but it's important that all project contributors follow the style rules so that they can all read and understand everyone’s code easily.
 
@@ -117,7 +117,7 @@ The strings shouldn't leave blank spaces
 
 When a tag has more than one attribute, we should list them with spaces.
 
-**Correct Use**
+**Correct Use** :ok_hand:
 ```
 <link 
     rel="stylesheet" 
@@ -125,7 +125,7 @@ When a tag has more than one attribute, we should list them with spaces.
     href="style.css">
 ```
 
-**Incorrect Use**
+**Incorrect Use** :-1:
 ```
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
