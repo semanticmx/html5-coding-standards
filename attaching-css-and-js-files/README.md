@@ -1,9 +1,5 @@
 Attaching CSS and JS files
-=====================
-
-## Table of contents
-- [General Recommendations](https://github.com/JosephColinP/html5-coding-standards/blob/main/README.md)
-- [Script Placement](#```<script>```-Placement)
+==========================
 
 ## ```<script>``` Placement
 ```<script>``` tags must be at the end of the page within the ```<footer>```  tag. When a browser renders a web page starts parsing HTML. As soon as the browser hits the ```<script>``` tag, it will download the ```<script>``` tag and then execute it. After finishing the execution of the ```<script>``` tag, it will continue parsing the HTML structure.  
