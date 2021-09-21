@@ -106,9 +106,11 @@ A code should only have one space between block codes.
 The strings shouldn't leave blank spaces
 
 **Correct Form**
+
 ```<head></head>```
 
 **Incorrect Form**
+
 ```<head> </head>```
 
 ### Tag's Attribute order
