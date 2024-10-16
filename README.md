@@ -31,3 +31,25 @@ When a web browser accesses a root folder, they'll only read camel cases or keba
 **Incorrect Naming** :-1:
 
 ``` cap1_mime_type  ``` 
+
+
+### Correct use of standarts in HTML5
+
+The format of use in HTML should be a tag per line with tags nested using indentation,for the attributes, when it has more than 1 ,each atributte will have their own line
+
+**Correct use**
+
+    <li>
+        <a 
+        href="#" 
+        id="links">
+            home
+        </a>
+    </li>
+    
+**Incorrect use**
+    
+    <li><a href="#" id="links">home</a></li>
+    
+
+
