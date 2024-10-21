@@ -52,5 +52,19 @@ The format of use in HTML should be a tag per line with tags nested using indent
     
     <li><a href="#" id="links">home</a></li>
     
-
-
+    
+### Correct Use of Identation
+For get a better code creation ,all features/attributes will have their own line
+    
+**Correct use**
+    
+    <canvas 
+            id="canva_identificado"
+            onclick="dibujaforma()"
+    >   
+    
+**Incorrect use**
+    
+    <canvas 
+            id="canva_identificado"
+            onclick="dibujaforma()">
