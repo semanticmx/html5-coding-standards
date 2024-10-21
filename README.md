@@ -41,8 +41,9 @@ The format of use in HTML should be a tag per line with tags nested using indent
 
     <li>
         <a 
-        href="#" 
-        id="links">
+            href="#" 
+            id="links"
+        >
             home
         </a>
     </li>
