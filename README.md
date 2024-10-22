@@ -33,9 +33,9 @@ When a web browser accesses a root folder, they'll only read camel cases or keba
 ``` cap1_mime_type  ``` 
 
 
-### Correct use of standarts in HTML5
+### Proper Use of Standards in HTML5
 
-The format of use in HTML should be a tag per line with tags nested using indentation,for the attributes, when it has more than 1 ,each atributte will have their own line
+The correct format for using tags in HTML involves placing one tag per line, with nested tags indented appropriately. For attributes, if there is more than one, each attribute should be placed on its own line.
 
 **Correct use**
 
@@ -53,8 +53,8 @@ The format of use in HTML should be a tag per line with tags nested using indent
     <li><a href="#" id="links">home</a></li>
     
     
-### Correct Use of Identation
-For get a better code creation ,all features/attributes will have their own line
+### Correct Use of Indentation
+To improve code readability, all elements and attributes should be placed on separate lines.
     
 **Correct use**
     
