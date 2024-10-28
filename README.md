@@ -57,8 +57,8 @@ The correct format for using tags in HTML involves placing one tag per line, wit
     <li><a href="#" id="links">home</a></li>
 ```   
     
-### Correct Use of Indentation
-To improve code readability, all elements and attributes should be placed on separate lines.
+### Proper Usage of Indentation
+To enhance code readability, each element and attribute should be placed on its own line. This approach improves structure, making the code easier to read and maintain.
     
 **Correct usage** :ok_hand:
 ```html
