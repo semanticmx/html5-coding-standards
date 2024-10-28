@@ -31,3 +31,46 @@ When a web browser accesses a root folder, they'll only read camel cases or keba
 **Incorrect Naming** :-1:
 
 ``` cap1_mime_type  ``` 
+
+
+### Proper Use of Standards in HTML5
+
+The correct format for using tags in HTML involves placing one tag per line, with nested tags indented appropriately. For attributes, if there is more than one, each attribute should be placed on its own line.
+
+**Correct usage** :ok_hand:
+
+```html
+    <li>
+        <a 
+            href="#" 
+            id="links"
+        >
+            home
+        </a>
+    </li>
+    
+```
+    
+**Incorrect usage** :-1:
+    
+```html
+    <li><a href="#" id="links">home</a></li>
+```   
+    
+### Proper Usage of Indentation
+To enhance code readability, each element and attribute should be placed on its own line. This approach improves structure, making the code easier to read and maintain.
+    
+**Correct usage** :ok_hand:
+```html
+    
+    <canvas 
+            id="canva_identificado"
+            onclick="dibujaforma()"
+    >   
+``` 
+**Incorrect usage** :-1:
+```html
+    <canvas 
+            id="canva_identificado"
+            onclick="dibujaforma()">
+```
